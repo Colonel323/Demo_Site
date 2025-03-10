@@ -1,48 +1,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:3000</loc>
+        <loc>https://Colonel323.github.io/Demo_Site</loc>
         <lastmod>2025-03-07</lastmod>
-        <loc>http://localhost:3000/about/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/about/</loc>
         <lastmod>2025-03-03</lastmod>
-        <loc>http://localhost:3000/authors/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/authors/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/authors/toucansites/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/authors/toucansites/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/search/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/search/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/tags/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/tags/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/tags/content/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/tags/content/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/tags/deployment/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/tags/deployment/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/tags/markdown/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/tags/markdown/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/start/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/start/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/change-images/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/change-images/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/new-tag/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/new-tag/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/new-author/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/new-author/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/new-post/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/new-post/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/new-navigation/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/new-navigation/</loc>
         <lastmod>2025-03-03</lastmod>
-        <loc>http://localhost:3000/posts/page-content/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/page-content/</loc>
         <lastmod>2025-03-03</lastmod>
-        <loc>http://localhost:3000/posts/change-footer/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/change-footer/</loc>
         <lastmod>2025-03-03</lastmod>
-        <loc>http://localhost:3000/posts/markdown-basic/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/markdown-basic/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/markdown-basic2/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/markdown-basic2/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/theme-tweaks/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/theme-tweaks/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/github-deploy/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/github-deploy/</loc>
         <lastmod>2025-02-28</lastmod>
-        <loc>http://localhost:3000/posts/trouble-shooting/</loc>
+        <loc>https://Colonel323.github.io/Demo_Site/posts/trouble-shooting/</loc>
         <lastmod>2025-03-03</lastmod>
     </url>
 </urlset>
