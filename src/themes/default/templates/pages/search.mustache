@@ -3,24 +3,22 @@
 
 <div class="wrapper">
 
-    <div class="extra-space"> </div>
-
     <h1>Search</h1>
 
-    {{& page.contents}}
+    {{& page.contents.html}}
 
-    <div class="extra-space"> </div>
+    <p class="hiddenText" id="baseUrlValue">{{site.baseUrl}}</p>
 
-    {{#empty(site.context.posts)}}
+    {{#empty(context.posts)}}
     Empty.
-    {{/empty(site.context.posts)}}
-    {{^empty(site.context.posts)}}
+    {{/empty(context.posts)}}
+    {{^empty(context.posts)}}
     <div style="visibility: hidden;" id="search-list" class="author-grid">
-        {{#site.context.posts}}
+        {{#context.posts}}
             {{> partials.author_post}}
-        {{/site.context.posts}}
+        {{/context.posts}}
     </div>
-    {{/empty(site.context.posts)}}
+    {{/empty(context.posts)}}
 
 </div>
 

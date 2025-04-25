@@ -3,12 +3,10 @@
 
 <div class="wrapper">
 
-    <div class="extra-space"> </div>
-
     <div class="author-head-grid">
 
         <div class="author-card">
-             <img src="{{page.imageUrl}}">
+             <img src="{{page.image}}">
         </div>
 
         <div class="author-data">
@@ -19,11 +17,9 @@
 
     </div>
 
-    <div class="wrapper">
-        <div class="section-divider" />
-    </div>
+    <div class="section-divider"></div>
 
-    {{& page.contents}}
+    {{& page.contents.html}}
 
     {{#empty(page.posts)}}
     No post yet for this author.

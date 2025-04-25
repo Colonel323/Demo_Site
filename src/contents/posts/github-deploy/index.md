@@ -1,8 +1,8 @@
 ---
 type: post
-title: "GitHub Deploy"
-description: "Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site"
-publication: 2025-01-09 00:00:00
+title: GitHub Deploy
+description: Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site
+publication: 2025-03-12 00:00:01
 tags:
   - deployment
 authors:
@@ -76,7 +76,7 @@ If you want to create a GitHub Pages site for a repository where not all of the 
 
 If the account that owns the repository uses GitHub Free or GitHub Free for organizations, the repository must be public.
 
-If you want to create a site in an existing repository, skip to the [Creating your site](/posts/github-deploy#creating-your-site) section.
+If you want to create a site in an existing repository, skip to the [Creating your site](/github-deploy#creating-your-site) section.
 
 1. In the upper-right corner of any page, select **+** , then click **New repository**.
     ![image1](./assets/image1.png)
@@ -106,7 +106,7 @@ If you want to create a site in an existing repository, skip to the [Creating yo
     ```
 
 2. Update base url
-    When deploying to GitHub Pages, you need to update the baseUrl field in the configuration file, which is location in **src/contens/index.yml**:
+    When deploying to GitHub Pages, you need to update the baseUrl field in the configuration file, which is location in **src/contens/site.yml**:
 
     ```yaml
     baseUrl: "http://localhost:3000/"
@@ -148,7 +148,7 @@ If you want to create a site in an existing repository, skip to the [Creating yo
 
 ## Creating your site
 
-Before you can create your site, you must have a repository for your site on GitHub. If you're not creating your site in an existing repository, see [Creating a repository for your site](/posts/github-deploy/#creating-a-repository-for-your-site).
+Before you can create your site, you must have a repository for your site on GitHub. If you're not creating your site in an existing repository, see [Creating a repository for your site](/github-deploy/#creating-a-repository-for-your-site).
 
 1. On GitHub, navigate to your site's repository.
 
@@ -208,7 +208,3 @@ You can set up or update certain DNS records and your repository settings to poi
 6. Enforce HTTPS (Optional but Recommended)
     - After DNS propagation (may take a few minutes to 24 hours), go back to GitHub Pages settings.
     - Ensure **Enforce HTTPS** is enabled
-
----
-
-**[Previous: Theme Tweaks](/posts/theme-tweaks/)** | **[Next: Troubleshooting](/posts/trouble-shooting/)**

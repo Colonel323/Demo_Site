@@ -3,24 +3,20 @@
 
 <div class="wrapper">
 
-    <div class="extra-space"> </div>
-
     <h1>All authors</h1>
 
-    <div class="extra-space"> </div>
+    {{& page.contents.html}}
 
-    {{& page.contents}}
-
-    {{#empty(site.context.authors)}}
+    {{#empty(context.authors)}}
     Empty.
-    {{/empty(site.context.authors)}}
-    {{^empty(site.context.authors)}}
+    {{/empty(context.authors)}}
+    {{^empty(context.authors)}}
     <div class="authors-list-grid">
-    {{#site.context.authors}}
+    {{#context.authors}}
         {{> partials.author}}
-    {{/site.context.authors}}
+    {{/context.authors}}
     </div>
-    {{/empty(site.context.authors)}}
+    {{/empty(context.authors)}}
 
 </div>
 

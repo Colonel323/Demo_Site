@@ -7,8 +7,11 @@ template: pages.default_page
 
 # About me
 
-I am an award-winning author whose work spans multiple genres, including mystery, historical fiction, and contemporary drama. His novels are celebrated for their intricate plots, relatable characters, and thought-provoking themes. With over a dozen published books, John has cultivated a dedicated readership worldwide.
+I am an award-winning author bird, whose work spans multiple genres, including mystery, historical fiction, and tech support documentation. My creations are celebrated for their intricate plots, relatable characters, and easy to understand instructions. With over a dozen published books (and documentations), I have cultivated a dedicated readership worldwide.
 
-Outside of writing, I am is an advocate for literacy programs and often conducts workshops to inspire young writers. I find inspiration in everyday life, using his keen observation to craft stories that resonate deeply with readers.
+Outside of writing, I am an advocate for literacy programs and often conducts workshops to inspire other tech writing people. I find inspiration in everyday life, using my keen observation to craft stories that resonate deeply with readers.
 
-This content is stored inside the **src/contents/about/index.md** file. To modify this content, update this file.
+---
+
+This content is stored inside the **src/contents/about/index.md** file.  
+To modify this content, update this file.

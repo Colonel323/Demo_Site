@@ -58,11 +58,6 @@ img {
     }
 }
 
-.extra-space {
-    width: 80px;
-    height: 80px;
-}
-
 .wrapper h4 {
     color: var(--text-color-1);
 }
@@ -80,9 +75,9 @@ article h4 {
     color: var(--text-color-1);
 }
 
-section {
+/*section {
     padding: 30px 15px;
-}
+}*/
 
 section.secondary {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -248,7 +243,7 @@ img.large {
 
 .article-class {
     margin: 16px;
-    display: grid;
+    display: block;
     grid-column-gap: 32px;
     grid-template-columns: 1fr;
 }
@@ -279,8 +274,17 @@ img.large {
     color: var(--text-color-1);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1060px) {
+    .article-class{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 1060px) {
     .article-class {
+        width: 1060px;
+        margin: 0px auto;
         grid-template-columns: 1fr auto;
     }
     .article-class>div:nth-child(1),
@@ -585,4 +589,20 @@ a.button {
 .button:active {
     box-shadow: none;
     transform: translateY(2px);
+}
+
+.hiddenText {
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0rem;
+    line-height: 0rem;
+}
+
+.prev > *, .next > * {
+    display: block;
+}
+
+.next > * {
+    text-align: right;
 }

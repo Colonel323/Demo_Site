@@ -1,8 +1,8 @@
 ---
 type: post
 title: Change Images
-description: Learn how to change images, including the site logo, cover images, post images, and author images in Try-O-Theme.
-publication: 2025-01-19 00:00:00
+description: Learn how to change images, including the site logo, the favicon, cover images, post images, and author images in Try-O-Theme.
+publication: 2025-03-02 00:00:01
 tags:
   - content
 authors:
@@ -14,7 +14,7 @@ featured: false
 
 ![Cover Image](./assets/cover.jpg)
 
-Learn how to change images, including the site logo, cover images, post images, author images, and general Markdown images in Try-O-Theme.
+Learn how to change images, including the site logo, the favicon, cover images, post images, author images, and general Markdown images in Try-O-Theme.
 
 ---
 
@@ -23,7 +23,7 @@ Learn how to change images, including the site logo, cover images, post images, 
 Different types of images in **Try-O-Theme** are stored in different directories:  
 
 - **Site Logo**: Located in **src/contents/assets/images/logos/**, controls the main site logo (logo.png) and dark mode logo (logo~dark.png).
-- **Post Images**: Stored in **src/contents/posts/post-name/assets/**, includes cover images (cover.jpg, .png, .webp) and inline images.
+- **Post Images**: Stored in **src/contents/post-name/assets/**, includes cover images (cover.jpg, .png, .webp) and inline images.
 - **Author Images**: Found in **src/contents/authors/author-name/assets/**, used for author profile pictures (author.jpg).
 - **General Markdown Images**: Can be stored inside any **assets/** directory within posts, pages, or other content. Used for embedding images inside Markdown files.
 
@@ -52,12 +52,37 @@ Different types of images in **Try-O-Theme** are stored in different directories
 
 ---
 
+## Changing the Favicon
+
+Favicons are the small icons that appear in browser tabs and bookmarks. To update the favicon in Try-O-Theme:
+
+1. Navigate to the favicon directory:
+
+   ```bash
+   cd src/contents/assets/icons/
+   ```
+
+2. Replace the existing favicon files with your own. Recommended formats:
+   • **favicon.ico** (main file used by most browsers)
+   • Optional additional sizes: **favicon.png**, etc.
+
+3. Ensure the filenames match the ones currently used, or update references in the site head if you’re using custom names.
+
+4. Regenerate & preview the site:
+
+   ```bash
+   toucan generate
+   toucan serve
+   ```
+
+---
+
 ## Changing Post Images (Cover & Inline Images)
 
 1. Go to the post directory where you want to add/change images:
 
    ```bash
-   cd src/contents/posts/my-post/assets/
+   cd src/contents/my-post/assets/
    ```
 
 2. Replace or add images:
@@ -149,5 +174,3 @@ Markdown allows you to embed images directly within your content. You can add im
 ---
 
 This guide ensures you can **easily update any image** in **Try-O-Theme**! 🚀
-
-**[Previous: START](/posts/start/)** | **[Next: Add New Tag](/posts/new-tag/)**
